@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JN Electronics S.A.S</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 2px solid red;
+    }
+    h1 {
+      color: red;
+      font-size: 3em;
+      margin: 0;
+    }
+    p.subtitle {
+      font-size: 1.2em;
+      color: #ccc;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .card {
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 700px;
+      box-shadow: 0 0 10px red;
+    }
+    h2 {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #aaa;
+      border-top: 1px solid #333;
+    }
+    a {
+      color: red;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JN Electronics S.A.S</h1>
+    <p class="subtitle">Innovación tecnológica con visión futurista</p>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>¿Quiénes somos?</h2>
+      <p>Somos una empresa colombiana especializada en soluciones electrónicas modernas, automatización y desarrollo de hardware personalizado.</p>
+    </div>
+
+    <div class="card">
+      <h2>Servicios</h2>
+      <p>Diseño de circuitos, integración de sistemas, desarrollo de prototipos, mantenimiento técnico y consultoría tecnológica.</p>
+    </div>
+
+    <div class="card">
+      <h2>Contacto</h2>
+      <p>Email: <a href="mailto:contacto@jnelectronics.com">contacto@jnelectronics.com</a><br>
+         Teléfono: +57 300 123 4567<br>
+         Dirección: Calle 123 #45-67, Barrancabermeja, Santander</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 JN Electronics S.A.S. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
